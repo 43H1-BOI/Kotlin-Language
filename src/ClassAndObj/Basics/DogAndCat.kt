@@ -1,4 +1,4 @@
-package ClassAndObj
+package ClassAndObj.Basics
 
 // 1st Code
 class dog(val name: String){

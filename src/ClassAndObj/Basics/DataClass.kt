@@ -1,4 +1,4 @@
-package ClassAndObj
+package ClassAndObj.Basics
 
 data class sportsPerson(
     val name: String,
@@ -12,7 +12,6 @@ fun main() {
     val Pappu = sportsPerson("Rahul Gandhi", 20,"New Delhi", 51205,"Cricket")
 
     makeID(Pappu)
-
 }
 
 fun makeID(sP : sportsPerson){

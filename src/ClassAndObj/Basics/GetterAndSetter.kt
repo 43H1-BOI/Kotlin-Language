@@ -1,4 +1,4 @@
-package ClassAndObj
+package ClassAndObj.Basics
 
 fun main() {
     val p1 = Phone("Oppo")

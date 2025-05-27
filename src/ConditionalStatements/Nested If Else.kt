@@ -1,5 +1,0 @@
-package ConditionalStatements
-
-fun main(){
-
-}

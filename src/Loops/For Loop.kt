@@ -7,7 +7,14 @@ fun main(){
     print("Enter a Number : ")
     val number : Int = readln().toInt()
 
+    // .. means <= to <=
     for(i in 1..10){
+        println("$number x $i = ${number*i}")
+    }
+
+    println("\n")
+    // until means <= to <
+    for(i in 1 until 11){
         println("$number x $i = ${number*i}")
     }
 }

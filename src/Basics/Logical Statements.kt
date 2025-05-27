@@ -5,7 +5,7 @@ fun main(){
     val b = 6
     val c = 1
 
-    println(b == (a+c))
+    println(b == (a+c)) // will return true or false
 
     /*
 

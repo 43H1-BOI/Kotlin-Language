@@ -35,3 +35,9 @@
 - [Basic 2](src/Arrays/Basic%202.kt)
 - [User Input Array](src/Arrays/User%20Input%20Array.kt)
 - 
+
+# [List](src/Lists)
+- [Basic 1](src/Lists/Basic%201.kt)
+- [Basic 2](src/Lists/Basic%202.kt)
+- [Immutable List](src/Lists/Immutable%20List.kt)
+- [Mutable List](src/Lists/Mutable%20List.kt)

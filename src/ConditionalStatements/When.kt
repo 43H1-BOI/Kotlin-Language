@@ -15,6 +15,7 @@ fun main() {
         in 60..70 -> println("B Grade")
         in 45..60 -> println("C Grade")
         in 35..45 -> println("P Grade")
+        33 , 34 -> println("Almost Fail Grade")
         else -> println("F Grade")
     }
 }

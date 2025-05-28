@@ -1,9 +1,18 @@
 package Functions
 
 fun main() {
-    val array = intArrayOf(55 , 21 , 69 , 37 , 20 , 0 , 2)
-    val maxElement = getMax(1 , 21 , 31, 0 , 9, 11 , *array)
-    println("Max Element from (1 , 21 , 31, 0 , 98, 11 , $array) is $maxElement")
+    val array = intArrayOf(55, 21, 69, 37, 20, 0, 2)
+    val maxElement = getMax(1, 21, 31, 0, 9, 11, *array)
+    println("Max Element from (1 , 21, 31, 0, 9, 11 ${returnArray(array)}) is $maxElement")
+}
+
+fun returnArray(array: IntArray): String {
+    var string = ""
+    for (i in array) {
+        string += ", $i"
+    }
+
+    return string
 }
 
 fun getMax(vararg list: Int): Int {

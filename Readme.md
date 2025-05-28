@@ -3,11 +3,6 @@
     -> For Abhi Yadav
     -> To  Abhi Yadav
 
-<!--
-- [Basics](#Basics)
-- [Basics](#Conditional)
-- [Loops](#Loops)
--->
 
 # [Basics](src/Basics)
 - [Hello World](src/Basics/Hello%20World.kt)
@@ -29,15 +24,18 @@
 - [While Loop](src/Loops/While%20Loop.kt)
 - [Do While Loop](src/Loops/Do-While%20Loop.kt)
 
-
 # [Arrays](src/Arrays)
 - [Basic 1](src/Arrays/Basic%201.kt)
 - [Basic 2](src/Arrays/Basic%202.kt)
 - [User Input Array](src/Arrays/User%20Input%20Array.kt)
-- 
 
 # [Lists](src/Lists)
 - [Basic 1](src/Lists/Basic%201.kt)
 - [Basic 2](src/Lists/Basic%202.kt)
 - [Immutable List](src/Lists/Immutable%20List.kt)
 - [Mutable List](src/Lists/Mutable%20List.kt)
+
+# [Functions](src/Functions)
+- [Basics](src/Functions/Basics.kt)
+- [Inline Function](src/Functions/Inline%20Function.kt)
+- [VarArgs](src/Functions/VarArgs.kt)

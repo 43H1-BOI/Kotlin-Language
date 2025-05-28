@@ -3,7 +3,7 @@ package Functions
 fun main() {
     greeting()
     printTable(5)
-    println("Largest Number Between 4 & 2 is ${max(4,2)}")
+    println("Largest Number Between 4 & 2 is ${max(num2 = 4, num1 = 2)}")
 }
 
 // function declaration and definition

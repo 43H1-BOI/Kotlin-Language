@@ -39,3 +39,4 @@
 - [Basics](src/Functions/Basics.kt)
 - [Inline Function](src/Functions/Inline%20Function.kt)
 - [VarArgs](src/Functions/VarArgs.kt)
+- [Extension Function](src/Functions/Extension%20Function.kt)

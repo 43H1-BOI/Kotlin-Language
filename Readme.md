@@ -43,3 +43,4 @@
 
 # [OOPS Concepts](src/OOPS)
 - [Class](src/OOPS/Class)
+- [Inheritance](src/OOPS/Inheritance)

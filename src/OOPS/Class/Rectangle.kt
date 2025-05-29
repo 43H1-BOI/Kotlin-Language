@@ -39,7 +39,7 @@ fun main() {
     println("Area = ${rect.area()} &")
     println("Perimeter = ${rect.perimeter()}\n")
 
-    val circ: Circle = Circle(5.0)
+    val circ = Circle(5.0)
 }
 
 class Square {

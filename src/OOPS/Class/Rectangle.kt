@@ -40,6 +40,11 @@ fun main() {
     println("Perimeter = ${rect.perimeter()}\n")
 
     val circ = Circle(5.0)
+
+
+
+    val sh = Shape(1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0)
+    sh.details()
 }
 
 class Square {
@@ -68,4 +73,30 @@ class Rectangle(
     fun area() = this.length * this.width
 
     fun perimeter() = 2 * (this.length + this.width)
+}
+
+class Shape(vararg sides: Double) {
+    var name: String = ""
+    var size = 0
+
+    init {
+        size = sides.size
+        name = when (size) {
+            1 -> "Straight Line"
+            3 -> "Triangle"
+            4 -> "Quadrilateral"
+            5 -> "Pentagon"
+            6 -> "Hexagon"
+            7 -> "Heptagon"
+            8 -> "Octagon"
+            9 -> "Nonagon"
+            10 -> "Decagon"
+            else -> "Unknown Shape"
+        }
+        println("A new shape created: $name with ${size} sides.")
+    }
+
+    fun details() {
+        println("This is a $name and it has ${size} sides.")
+    }
 }

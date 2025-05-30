@@ -6,14 +6,12 @@ fun main() {
     // var shape : Shape = Shape()
     var rect : Rectangle = Rectangle(5.0, 4.0)
     println("Area = ${rect.area()}")
-
 }
 
 // Abstract Class is Used as a Structure
 // Object of Abstract class cannot be created
 // Function/Methods inside Abstract Class can be abstract or not
 // Non-Abstract methods can be overridden
-//
 
 abstract class Shape(var name: String = "") {
     val area: Double = 0.0

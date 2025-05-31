@@ -1,7 +1,12 @@
 package OOPS.Object
 
 fun main(){
-    Important.printPI()
+    MyMath.printPI()
+
+    print("\nEnter Radius of Circle : ")
+    var radius = readln().toDouble()
+    var area = MyMath.getPI() * radius * radius
+    println("\nArea of Circle having radius($radius) = $area")
 }
 
 
@@ -12,7 +17,9 @@ fun main(){
 //      Only One variable can initialize throughout the program
 
 
-object Important{
+
+
+object MyMath{
     const val PI : Double = 3.14159
 
     fun getPI(): Double = PI

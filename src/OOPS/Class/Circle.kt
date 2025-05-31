@@ -3,6 +3,8 @@ package OOPS.Class
 import kotlin.math.PI
 
 // We Can Also Define Class in Different File
+// If we do not define var or val before variables then they are considered only as
+// parameters not members
 class Circle(
     val radius: Double
 ) {

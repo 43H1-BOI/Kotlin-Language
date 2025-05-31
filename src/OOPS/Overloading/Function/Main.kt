@@ -11,3 +11,15 @@ fun add(n1: Int, n2: Int) = n1 + n2
 fun add(n1: Double, n2: Int) = n1 + n2
 
 fun add(n1: Double, n2: Double) = n1 + n2
+
+fun add(n1: Int, n2: Int, n3: Int): Int {
+    return add(n1, n2) + n3
+}
+
+fun add(n1: Double, n2: Double, n3: Double): Double {
+    return add(n1, n2) + n3
+}
+
+fun add(n1: Double, n2: Int, n3: Double): Double {
+    return add(n1, n2) + n3
+}

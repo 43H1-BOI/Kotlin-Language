@@ -47,6 +47,7 @@
 - [Abstraction](src/OOPS/AbstractClass)
 - [Overloading](src/OOPS/Overloading)
 - [Object](src/OOPS/Object)
+- [Anonymous Class](src/OOPS/AnonymousClass)
 
 # [Exception Handling](src/ExceptionHandling)
 - [Basic](src/ExceptionHandling/Basic.kt)

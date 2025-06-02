@@ -1,33 +1,37 @@
 package ExceptionHandling
 
-fun main(){
-    println("Dividing 5 with 0")
+// My Custom Exception
+// This Custom Exception Class will  extend Exception Class and will provide exception message as
+// argument to Default Constructor of Exception Class
+class UnderAgeException : Exception("Pehle Bade Ho Jao Beta !!")
+
+fun main() {
+    println("18+ Game :: ")
+    print("Please Verify Your Age : ")
+    val age = readln().toInt()
 
     try {
-        divide(5, 0)
-    } catch (e: DivideByZeroException) {
+        verifyAge(age)
+    } catch (e: UnderAgeException) {
         // To Print Exception Message
         println(e.message)
 
         // To Print Stack Trace
         // means all the details where the exception occurred
         // e.printStackTrace()
-    } finally {
-        println("Thanks")
+
+        // will end program once exception occurred
+        return
     }
+
+    println("\nNo 18+ Game Here.")
+    println("Haha ! I am Just Jooking ")
+
 }
 
-fun divide(a: Int, b: Int): Int {
-    if (b == 0) {
-        // this line will throw DivideByZeroException which we will handle in the function
-        // where this function is used i.e. main
-        throw DivideByZeroException()
+fun verifyAge(age : Int){
+    if(age < 18){
+        throw UnderAgeException()
     }
-    return a / b
+    println("Congratulation ! You Passed the Age Test .")
 }
-
-// My Custom Exception
-// This Custom Exception Class will  extend Exception Class and will provide exception message as
-// argument to Default Constructor of Exception Class
-
-class DivideByZeroException : Exception("Don't Divide with Zero Please !!")

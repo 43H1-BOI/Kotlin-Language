@@ -18,7 +18,6 @@ fun main() {
     val stu1 = Student("Abhishek Yadav", 20, "IC2K23-06")
     val stu2 = Student("Abhishek Yadav", 20, "IC2K23-06")
 
-
     println("\nComparing ( Data Class ) :- \n${stu1.equals(stu2)}")
 
     // Two Different Objects having Same Data in it

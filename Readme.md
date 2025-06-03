@@ -43,6 +43,7 @@
 
 # [OOPS Concepts](src/OOPS)
 - [Class](src/OOPS/Class)
+- [Data Class](src/OOPS/Data_Class)
 - [Inheritance](src/OOPS/Inheritance)
 - [Abstraction](src/OOPS/Abstract_Class)
 - [Overloading](src/OOPS/Overloading)
@@ -54,4 +55,3 @@
 - [Custom Exception](src/Exception_Handling/Custom%20Exception.kt)
 - [Multiple Catch and More](src/Exception_Handling/Multiple%20Catch%20and%20More.kt)
 
-#

@@ -1,4 +1,4 @@
-package OOPS.AnonymousClass
+package OOPS.Anonymous_Class
 
 fun main() {
 

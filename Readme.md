@@ -44,6 +44,7 @@
 # [OOPS Concepts](src/OOPS)
 - [Class](src/OOPS/Class)
 - [Data Class](src/OOPS/Data_Class)
+- [Nested Class](src/OOPS/Nested_Class)
 - [Inheritance](src/OOPS/Inheritance)
 - [Abstraction](src/OOPS/Abstract_Class)
 - [Overloading](src/OOPS/Overloading)

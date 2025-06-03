@@ -1,4 +1,4 @@
-package ConditionalStatements
+package Conditional_Statements
 
 fun main(){
     var age = 18

@@ -1,4 +1,4 @@
-package ExceptionHandling
+package Exception_Handling
 
 // My Custom Exception
 // This Custom Exception Class will  extend Exception Class and will provide exception message as

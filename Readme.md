@@ -47,6 +47,7 @@
 - [Nested Class](src/OOPS/Nested_Class)
 - [Enum Class](src/OOPS/Enum_Class)
 - [Sealed Class](src/OOPS/Sealed_Class)
+- [Extension Function](src/OOPS/Extension_Function)
 - [Inheritance](src/OOPS/Inheritance)
 - [Abstraction](src/OOPS/Abstract_Class)
 - [Overloading](src/OOPS/Overloading)

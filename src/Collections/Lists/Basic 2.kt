@@ -21,9 +21,13 @@ fun main(){
     println("Immutable List :- $immutableList")
 
     val mutableList = mutableListOf<Int>(1,2,3)
-    mutableList[0] = 0
-    mutableList.add(5) // to add element at last
+    println(mutableList[0]) // To get Element From Index 0
+    mutableList[0] = 0 // To Set Element at Index 0
+    mutableList.add(5) // to add element at last of list
     mutableList.add(1,1) // to add element at specific address
+
+    mutableList.addAll(immutableList)
+    // will append all elements of immutableList to mutableList
 
     println("Mutable List :- $mutableList")
 

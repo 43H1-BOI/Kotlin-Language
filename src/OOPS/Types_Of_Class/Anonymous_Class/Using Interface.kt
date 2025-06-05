@@ -1,4 +1,4 @@
-package OOPS.Anonymous_Class
+package OOPS.Types_Of_Class.Anonymous_Class
 
 // TODO
 

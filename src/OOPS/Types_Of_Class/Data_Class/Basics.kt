@@ -1,4 +1,4 @@
-package OOPS.Data_Class
+package OOPS.Types_Of_Class.Data_Class
 
 // Data Class are used to Store data members only
 // No Function can be created with data class

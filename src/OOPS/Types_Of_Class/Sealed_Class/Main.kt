@@ -1,4 +1,4 @@
-package OOPS.Sealed_Class
+package OOPS.Types_Of_Class.Sealed_Class
 
 fun main() {
 //    cannot create object of Sealed Class As it is abstract by default

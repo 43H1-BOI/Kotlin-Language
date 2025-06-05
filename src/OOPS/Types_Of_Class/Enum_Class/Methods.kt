@@ -1,4 +1,4 @@
-package OOPS.Enum_Class
+package OOPS.Types_Of_Class.Enum_Class
 
 fun main(){
     val dirEast = Directions.EAST

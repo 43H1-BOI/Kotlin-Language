@@ -1,4 +1,4 @@
-package OOPS.Data_Class
+package OOPS.Types_Of_Class.Data_Class
 
 fun main(){
     val student1 = Student("Abhishek Yadav", 20, "IC2K23-06")

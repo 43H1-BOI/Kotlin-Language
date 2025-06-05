@@ -1,4 +1,4 @@
-package OOPS.Nested_Class
+package OOPS.Types_Of_Class.Nested_Class
 
 /*
     Inner Class is used to create a class inside another class

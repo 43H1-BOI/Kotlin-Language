@@ -1,4 +1,4 @@
-package OOPS.Data_Class
+package OOPS.Types_Of_Class.Data_Class
 
 // Classes Already Declared in Same Package
 // So No Need To Declare them Again

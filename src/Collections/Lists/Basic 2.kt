@@ -1,4 +1,4 @@
-package Lists
+package Collections.Lists
 
 fun main(){
 /*

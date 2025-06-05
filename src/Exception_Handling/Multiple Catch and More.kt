@@ -22,6 +22,7 @@ fun main() {
         // Because it can handle any type of Exception
         println("Wrong Input Type")
         e.printStackTrace()
+
     } catch (e: Exception) {
         e.printStackTrace()
         println(e.message)

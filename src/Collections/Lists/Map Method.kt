@@ -14,6 +14,7 @@ fun main() {
 
 //    val lettersToNum = list.map {it -> it.toInt()}
     val lettersToNum = letters.map { it -> it.code }
+    // to convert it to ASCII
 
     println(lettersToNum)
 
